@@ -18,7 +18,7 @@ public class IU {
 		if (peice == null) {
 			System.out.print("-");
 		}else {
-			System.out.println(peice);
+			System.out.print(peice);
 		}
 		System.out.print(" ");
 	}
