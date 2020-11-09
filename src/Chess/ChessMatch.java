@@ -21,7 +21,7 @@ public class ChessMatch {
 		 }	
 		 return mat;
 	}
-	public ChessPiece performaceChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
+	public ChessPiece performChessMove(ChessPosition sourcePosition, ChessPosition targetPosition) {
 		Position source = sourcePosition.toPosition();
 		Position target = targetPosition.toPosition();
 		validateSoucePosition(source);
