@@ -16,6 +16,7 @@ public abstract class ChessPiece extends Piece{
 		return color;
 	}
 	protected boolean isThereOpponetPiece(Position position) {
+		//Verificar se a peça e do oponete.
 		ChessPiece p = (ChessPiece) getBoard().piece(position);
 		return p != null && p.getColor() != color;
 	}
