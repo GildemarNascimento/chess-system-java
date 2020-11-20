@@ -29,7 +29,7 @@ public abstract class ChessPiece extends Piece{
 	public void decreaseMoveCount() {
 		moveCount --;
 	}
-	protected boolean isThereOpponetPiece(Position position) {
+	protected boolean isThereOpponentPiece(Position position) {
 		//Verificar se a peça e do oponete.
 		ChessPiece p = (ChessPiece) getBoard().piece(position);
 		return p != null && p.getColor() != color;
