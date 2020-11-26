@@ -1,4 +1,4 @@
-package Chess;
+package chess;
 
 import boardgame.Position;
 
@@ -18,7 +18,7 @@ public class ChessPosition {
 	public int getRow() {
 		return row;
 	}
-	protected Position toPosition() {
+	public Position toPosition() {
 		return new Position(8 - row, column - 'a');
 	}
 	protected static ChessPosition fromPosition(Position position) {
